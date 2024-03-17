@@ -46,6 +46,10 @@ export default defineConfig({
 					link: 'mythen'
 				},
 				{
+					label: 'Was kann ich tun?',
+					link: 'was-kann-ich-tun'
+				},
+				{
 					label: 'Ich bin Wissenschaftler, Data Scientists oder Schüler',
 					link: 'daten-und-software',
 				}
