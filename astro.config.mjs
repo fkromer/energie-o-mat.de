@@ -12,6 +12,14 @@ export default defineConfig({
 					lang: 'de'
 				}
 			},
+			head: [{
+				tag: 'script',
+				attrs: {
+					src: 'https://plausible.io/js/script.js',
+					'data-domain': 'energie-o-mat.de',
+					defer: true,
+				},
+			}],
 			// editLink: { baseUrl: 'https://github.com/fkromer/energie-o-mat.de/edit/main/' },
 			social: {
 				github: 'https://github.com/fkromer/energie-o-mat.de',
